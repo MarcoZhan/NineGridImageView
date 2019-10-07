@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * author : Marco
  * date : 2019/10/7 0007 21:23
- * desc : 仿钉钉/TIM/QQ等效果 九宫格群头像图片
+ * desc : 仿钉钉/TIM/QQ等九宫格群头像图片
  */
 public class NineGridImageView <T> extends ViewGroup {
 
