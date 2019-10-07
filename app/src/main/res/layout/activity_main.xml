@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="仿钉钉九宫格群头像"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:columnCount="2"
+        android:layout_gravity="center"
+        app:alignmentMode="alignBounds"
+        app:orientation="horizontal"
+        app:rowCount="5">
+
+        <com.marco.ninegridimageview.widget.ninegridimageview.NineGridImageView
+            android:id="@+id/iv_group_avatar"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/bg_circle_white" />
+
+        <com.marco.ninegridimageview.widget.ninegridimageview.NineGridImageView
+            android:id="@+id/iv_group_avatar0"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_circle_white"
+            tools:ignore="GridLayout" />
+
+        <com.marco.ninegridimageview.widget.ninegridimageview.NineGridImageView
+            android:id="@+id/iv_group_avatar1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/bg_circle_white" />
+
+        <com.marco.ninegridimageview.widget.ninegridimageview.NineGridImageView
+            android:id="@+id/iv_group_avatar2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/bg_circle_white" />
+
+        <com.marco.ninegridimageview.widget.ninegridimageview.NineGridImageView
+            android:id="@+id/iv_group_avatar3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/bg_circle_white" />
+
+    </android.support.v7.widget.GridLayout>
+
+</LinearLayout>

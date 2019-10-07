@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NineGridImageView">
+        <attr name="imgGap" format="dimension"/>
+        <attr name="ivRadius" format="dimension"/>
+    </declare-styleable>
+
+</resources>
